@@ -22,11 +22,15 @@ I'm a final year postgraduate computer science student at Indian Statistical Ins
 - ML and DL for NLP, image recognition and generative models
 - Exploring algorithms and data structures for problem-solving
 
+## 📊 Work Experience
+-  **PwC India** - Technical Consultant - 2019-2022
+
 ## 📚 Education
 
-- **ISI, Kolkata** - M.Tech in Computer Science Postgraduate (#) -2024
-- **Jadavpur University** - [Computer Science Undergraduate](#) - [Graduation Year]
+- **ISI, Kolkata** - M.Tech in Computer Science Postgraduate - 2022- 2024
+- **Jadavpur University** - B.E in Electrical Engineering - 2015- 2019
 
+<!--
 ## 📊 Projects
 
 - [Project 1](#) - Brief description of the project.
@@ -48,6 +52,7 @@ I'm a final year postgraduate computer science student at Indian Statistical Ins
 I enjoy solving puzzles and playing in my free time!
 
 Feel free to explore my GitHub repositories to see more of my projects and contributions.
+-->
 
 <!-- Add any additional sections or customization you prefer -->
 
