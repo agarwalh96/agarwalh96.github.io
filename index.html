@@ -3,69 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - GitHub Landing Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            padding: 2rem 0;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            font-size: 1.2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        /* Add your own custom styles here */
-
-    </style>
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Computer Science Postgraduate</p>
-        <p>Passionate about Information Retrieval, NLP, ML, DL, and Algorithms</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            I'm a final year postgraduate computer science student with a passion for Information Retrieval, Natural Language Processing (NLP), Machine Learning (ML), Deep Learning (DL), and fundamental Data Structures and Algorithms.
-        </p>
+    <section id="about">
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Computer Science Postgraduate</p>
+            <p>Passionate about Information Retrieval, NLP, ML, DL, and Algorithms</p>
+        </div>
+    </section>
 
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, Java, C++</li>
-            <li>Machine Learning: Scikit-Learn, TensorFlow, Keras</li>
-            <li>Deep Learning: PyTorch, TensorFlow</li>
-            <li>Natural Language Processing: NLTK, spaCy, Gensim</li>
-            <!-- Add more skills as needed -->
-        </ul>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Add project cards here -->
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Brief description of the project.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Brief description of the project.</p>
+                <a href="#">View Project</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
 
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/">Your LinkedIn Profile</a></p>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/">Your LinkedIn Profile</a></p>
+        </div>
+    </section>
 
-        <!-- Add more sections as needed -->
-
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
